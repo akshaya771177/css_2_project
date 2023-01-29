@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgba(0, 128, 128, 0.537);
+        }
+
+        * {
+            margin: 0;
+        }
+
+        nav.first-row {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-shadow: 1px 1px 2px black;
+            font-size: 20px;
+            word-spacing: 50px;
+            background-color: black;
+            letter-spacing: 1px;
+
+
+        }
+
+        nav {
+            height: 40px;
+            padding: 10px;
+        }
+
+        .aa {
+            text-decoration: none;
+            color: white;
+            word-spacing: 20px;
+
+        }
+
+        header {
+            font-size: 60px;
+            height: 150px;
+            text-align: center;
+            color: white;
+            background-color: skyblue;
+            text-shadow: 1px 1px 2px black;
+        }
+
+        h1 i {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+            font-weight: 900;
+
+        }
+
+        .logo {
+            -webkit-clip-path: circle(28.3% at 52% 49%);
+            clip-path: circle(28.3% at 52% 49%);
+            margin-top: -30px;
+            margin-right: 1600px;
+        }
+
+        .all {
+            margin-top: -200px;
+        }
+
+        button {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            border-radius: 10px;
+            width: 180px;
+            height: 40px;
+            margin-top: 150px;
+            margin-left: 340px;
+            font-size: 15px;
+            box-shadow: 3px 3px palegreen;
+        }
+
+        .button2 {
+            text-decoration: none;
+            color: black;
+            letter-spacing: 3px;
+
+        }
+
+        button:hover {
+            background-color: thistle;
+        }
+
+        .footer-a {
+            color: white;
+            text-decoration: none;
+            word-spacing: 10px;
+        }
+
+        .first-row:hover {
+            background-color: aquamarine;
+            transition: 2s;
+        }
+
+        .aa:hover {
+            color: tomato;
+            transition: 2s;
+        }
+
+        a {
+            color: tomato;
+            transition: 2s;
+        }
+
+        .container-about a {
+            text-decoration: none;
+            color: white;
+            word-spacing: 0px;
+        }
+
+        .container-about:hover a {
+            color: tomato;
+            transition: 2s;
+        }
+
+        .drop-down-menu {
+            height: auto;
+            width: 180px;
+            background-color: whitesmoke;
+            display: none;
+
+
+        }
+
+        .dm {
+            display: block;
+
+        }
+
+        .dm :hover a {
+            color: tomato;
+            transition: 2s;
+        }
+
+        .container-about:hover .drop-down-menu {
+            display: block;
+            z-index: 99;
+            overflow: hidden;
+            height: 500px;
+        }
+        nav  span{
+            margin-left: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="assets/css/js/images/logo.webp" alt="" class="logo">
+        <h1 class="all"> <i> AllBirds </i></h1>
+    </header>
+
+    <nav class="first-row" style="display: flex; position: relative;">
+        <span style="flex: 50%;">
+            <a href="index.html" class="aa">HOMEPAGE</a>
+            <a href="mens.html" class="aa">MEN</a>
+            <a href="womens.html" class="aa">WOMEN</a>
+            <a href="shoes.html" class="aa">SHOES</a>
+            <!-- <a href="" class="aa">SERVICE</a> -->
+        </span>
+
+        <span >
+
+            <div class="container-about" style="margin-left: 150px; margin-top: 4px; flex: 50%;"><a href="">ABOUT US</a>
+                <div class="drop-down-menu" style="position: absolute;">
+                    <a href="history.html" class="dm">HISTORY</a>
+                    <a href="history.html" class="dm">VISION</a>
+                    <a href="initiative.html" class="dm">INTIATIVE</a>
+                </div>
+
+            </div>
+        </span>
+        <span >
+            <a href="register2.html" class="aa">REGISTER</a>
+            <a href="signup.html" class="aa">SINGUP <img src="assets/css/js/images/login.webp" alt="" height="20px"
+                    style="border: 2px purple solid;"></a>
+
+        </span>
+
+    </nav>
+
+    <!-- <table border="1" style="margin-left: 8px; margin-top:20px;">
+    <thead>
+  
+    <tr>
+        <td> -->
+
+    <div style="position: relative; ">
+
+        <img src="assets/css/js/images/mainpic.webp" alt="" width="1450px" height="500px"
+            style="margin-top:20px;margin-left:12px;">
+        <h1
+            style="text-align: center;margin-top: -400px; color: aliceblue;font-size: 80px;font-weight: bolder; letter-spacing: 1px; text-shadow: 1px 1px 2px black;">
+            Made from Trees. Designed for Sun.</h1>
+        <span class="button"> <button><a href="mens.html" class="button2"> SHOP MEN </a></button> <button><a
+                    href="womens.html" class="button2"> SHOP WOMEN </a></button> </span>
+    </div>
+
+
+    <!-- </td>
+    </tr>
+    </thead>
+   </table> -->
+    <div class="footer-type">
+        <nav style="margin-top:135px; background-color: whitesmoke;">
+            <h1>GET IN TOUCH...... <span style="margin-left: 1000px;"> <a href="https://www.facebook.com"> <img
+                            src="assets/css/js/images/facebook.webp" alt="" style="width: 30px; "></a> &nbsp;<a
+                        href="https://www.instagram.com"><img src="assets/css/js/images/insta.webp" alt=""
+                            style="width: 30px;"></a> </span>&nbsp;<a href="https://www.snapchat.com"><img
+                        src="assets/css/js/images/snapchat.webp" alt="" style="width: 30px;"></a></span></h1>
+        </nav>
+    </div>
+    <footer>
+
+        <nav style=" height: 40px; background-color: black; padding: 15px;text-align: center; display: flex;">
+            <a href="" class="footer-a" style="flex:90%;">© 2022 Allbirds Ltd. All rights reserved <br>
+                Terms of Use | Cookie & Privacy Policy</a>
+            <h4 style="color: white; flex: 10%;font-size: 15px; ">CREATED BY: AKSHAYA SATYAWALI</h4>
+        </nav>
+    </footer>
+</body>
+
+</html>
